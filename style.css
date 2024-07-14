@@ -1,0 +1,87 @@
+body {
+    font-family:monospace;
+    padding-top: 56px; /* Adjust according to your fixed navbar height */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #79bcff; /* Dark color for the navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: black !important; /* White text for navbar items */
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important; /* Highlight color on hover */
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: url('bgg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-family: fantasy;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+#skills .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+}
+
+#skills .list-group-item::before {
+    content: "✔";
+    color: #0277f5c7;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #79bcff; /* Bright footer color */
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+#filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-btn.active {
+    background-color: #007bff;
+    color: white;
+}
