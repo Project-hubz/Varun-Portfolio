@@ -11,8 +11,7 @@ body {
 }
 
 .navbar-brand, .nav-link {
-    color: rgb(255, 255, 255) !important;
-    font-family: monospace;/* White text for navbar items */
+    color: rgb(255, 255, 255) !important; /* White text for navbar items */
 }
 
 .navbar-nav .nav-link:hover {
@@ -24,11 +23,12 @@ body {
     background: url('169.JPG') no-repeat center center;
     background-size: cover;
     color: rgb(0, 0, 0);
-    height: 100vh; /* Full viewport height */
+    height: 85vh; /* Full viewport height */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    opacity: 50%;
 }
 
 .jumbotron h1 {
